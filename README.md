@@ -59,7 +59,7 @@ Install the free `Sourcery G++ Lite 2011.03-41` ARM toolset
   * Liberal use of `sudo` was require in the steps above.
 
 ######Build
-	- `$ /opt/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-linux-gnueabi-g++ -pthread -o "DroneClient" DroneClient.cpp`
+`$ /opt/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-linux-gnueabi-g++ -pthread -o "DroneClient" DroneClient.cpp`
 
 ####Contact
 Tou should be able to contact me via [http://tekkies.co.uk](http://tekkies.co.uk)
