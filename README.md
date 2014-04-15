@@ -53,15 +53,11 @@ Install the free `Sourcery G++ Lite 2011.03-41` ARM toolset
 
 * I used the IA32 GNU/Linux Installer
   * (after downloading, chmod the file to be executable, then run it)
-  * The installer required me to install 32bit support (My Ubuntu was x64)
+  * The installer required me to install 32bit support - libc6-i386 (My Ubuntu was x64)
   * The installer asked to use a specific shell - instructions were provided to do this.
   * I chose to install into `/opt/CodeSourcery`
   * Liberal use of `sudo` was require in the steps above.
 
 ######Build
 `$ /opt/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-linux-gnueabi-g++ -pthread -o "DroneClient" DroneClient.cpp`
-
-####Contact
-Tou should be able to contact me via [http://tekkies.co.uk](http://tekkies.co.uk)
-
 	
